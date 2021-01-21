@@ -14,8 +14,10 @@ class Date {
         String monthName[] = { "JANUARY", "FEBRUARY", "MARCH", "APRIL", "MAY", "JUNE", "JULY", "AUGUST", "SEPTEMBER",
                 "OCTOBER", "NOVEMBER", "DECEMBER" };
         String finalSuffix;
-        if(day>9 && day<21) finalSuffix="TH";
-        else finalSuffix=suffix[day % 10];
+        if (day > 9 && day < 21)
+            finalSuffix = "TH";
+        else
+            finalSuffix = suffix[day % 10];
         return day + " " + finalSuffix + " " + monthName[month - 1] + ", " + year;
     }
 }
@@ -42,20 +44,20 @@ class ISC2019Q1 {
             System.out.println("DATE AFTER (N DAYS) OUT OF RANGE.");
         } else {
             Date dt = dateFromDayNumber(dayNumber, year);
-            System.out.println("DATE:\t\t\t"+dt);
-            int nextDayNumber= dayNumber+N, nextYear;
-            if(nextDayNumber>365){
-                nextYear=year+1;
-            }else{
-                nextYear=year;
+            System.out.println("DATE:\t\t\t" + dt);
+            int nextDayNumber = dayNumber + N, nextYear;
+            if (nextDayNumber > 365) {
+                nextYear = year + 1;
+            } else {
+                nextYear = year;
             }
-            if(isLeap(year)){
-                nextDayNumber=nextDayNumber%366;
-            }else{
-                nextDayNumber=nextDayNumber%365;
+            if (isLeap(year)) {
+                nextDayNumber = nextDayNumber % 366;
+            } else {
+                nextDayNumber = nextDayNumber % 365;
             }
-            Date dateAfterNDays=dateFromDayNumber(nextDayNumber, nextYear);
-            System.out.println("DATE AFTER "+N+" DAYS:\t"+dateAfterNDays);
+            Date dateAfterNDays = dateFromDayNumber(nextDayNumber, nextYear);
+            System.out.println("DATE AFTER " + N + " DAYS:\t" + dateAfterNDays);
         }
         in.close();
     }
@@ -65,11 +67,12 @@ class ISC2019Q1 {
         if (isLeap(year))
             month[1] = 29;
         int monthNumber;
-        for( monthNumber=0;monthNumber<month.length;monthNumber++){
-            if(dayNumber<month[monthNumber]) break;
-            dayNumber-=month[monthNumber];
+        for (monthNumber = 0; monthNumber < month.length; monthNumber++) {
+            if (dayNumber < month[monthNumber])
+                break;
+            dayNumber -= month[monthNumber];
         }
-        return new Date(dayNumber, monthNumber+1,year);
+        return new Date(dayNumber, monthNumber + 1, year);
     }
 
     public static boolean isLeap(int year) {
