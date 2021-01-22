@@ -68,7 +68,7 @@ class ISC2019Q1 {
             month[1] = 29;
         int monthNumber;
         for (monthNumber = 0; monthNumber < month.length; monthNumber++) {
-            if (dayNumber < month[monthNumber])
+            if (dayNumber <= month[monthNumber])
                 break;
             dayNumber -= month[monthNumber];
         }
