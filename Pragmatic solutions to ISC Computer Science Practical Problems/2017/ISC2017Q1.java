@@ -12,7 +12,6 @@ class ISC2017Q1{
             for( int i=0; i<cartons.length;i++){
                 count=quantity/cartons[i];
                 if(count>0){
-                    //System.out.println(cartons[i]+" x "+count+" = "+(cartons[i]*count));
                     System.out.printf("\t\t\t\t%4d x %4d = %4d\n",cartons[i],count,(cartons[i]*count));
                 }
                 totalCartons+=count;
@@ -25,7 +24,6 @@ class ISC2017Q1{
             }
             System.out.printf("%-43s = %4d\n","Total mumber of boxes",N);
             System.out.printf("%-43s = %4d\n","Total mumber of cartons",totalCartons);
-
         }
         in.close();
     }
