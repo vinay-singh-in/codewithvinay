@@ -15,27 +15,27 @@ Example 1
 INPUT : N = 726
 
 OUTPUT :
-                48 x 15 = 720
-                  6 x 1 = 6
-Remaining boxes         = 0
+                48 x 15 =  720
+                 6 x  1 =    6
+Remaining boxes         =    0
 Total number of boxes   = 726
 Total number of cartons = 16
 
 Example 2
 
-INPUT : N = 140
+INPUT: N = 140
 
-OUTPUT :
-                 48 X 2 = 96
-                 24 x 1 = 24
-                 12 x 1 = 12
-                  6 x 1 = 6
-Remaining boxes   2 x 1 = 2
-Total number of boxes   = 140
+OUTPUT:
+                 48 X 2 =   96
+                 24 x 1 =   24
+                 12 x 1 =   12
+                  6 x 1 =    6
+Remaining boxes   2 x 1 =    2
+Total number of boxes   =  140
 Total number of cartons = 6
 
 Example 3
 
 INPUT : N = 4296
 
-OUTPUT : INVALID LENGTH
+OUTPUT : INVALID INPUT
