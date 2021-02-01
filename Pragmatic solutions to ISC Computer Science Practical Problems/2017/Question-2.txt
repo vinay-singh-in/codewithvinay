@@ -39,7 +39,7 @@ INPUT:  N = 5
         Participant 3 B A C D B
         Participant 4 D A D C B
         Participant 5 B C A D D
-        Key : B C D A A
+        Key: B C D A A
 OUTPUT: Scores:
         Participant 1 = 0
         Participant 2 = 1
