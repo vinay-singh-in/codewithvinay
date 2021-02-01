@@ -51,11 +51,11 @@ OUTPUT: Scores:
 Example 2
 
 INPUT:  N = 4
-        Participant 1
-        Participant 2
-        Participant 3
-        Participant 4
-        Key : A C
+        Participant 1 A C C B D
+        Participant 2 B C A A C
+        Participant 3 B C B A A
+        Participant 4 C C D D B
+        Key : A C D B B
 OUTPUT: Scores:
         Participant 1 = 3
         Participant 2 = 1
