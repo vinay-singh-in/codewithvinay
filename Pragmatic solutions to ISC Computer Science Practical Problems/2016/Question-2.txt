@@ -71,11 +71,11 @@ REARRANGED MATRIX
 DIAGONAL ELEMENTS
         7               5
             0       2
-               5   5
+                 4   
             6       12
         1               8
 
-SUM OF THE DIAGONAL ELEMENTS = 46
+SUM OF THE DIAGONAL ELEMENTS = 45
 
 INPUT:  M = 3
 OUTPUT: THE MATRIX IS OUT OF RANGE
