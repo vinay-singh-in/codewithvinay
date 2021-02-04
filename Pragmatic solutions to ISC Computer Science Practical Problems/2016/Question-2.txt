@@ -64,7 +64,7 @@ ORIGINAL MATRIX
 REARRANGED MATRIX
         7   4   1   9   5
         8   0   1   2   19
-        13  3   5   5   1
+        13  3   4   5   1
         10  6   10  12  16
         1   8   17  6   8
 
