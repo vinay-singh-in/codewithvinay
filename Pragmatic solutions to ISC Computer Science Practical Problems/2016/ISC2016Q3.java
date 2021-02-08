@@ -38,7 +38,7 @@ class Sentence {
     }
 
     public String toString() {
-        return answer;
+        return answer.trim();
     }
 }
 
