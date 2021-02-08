@@ -6,7 +6,7 @@ class Sentence {
 
     public Sentence(String sentence) {
         this.sentence = sentence;
-        answer="";
+        answer = "";
     }
 
     private static boolean isVowel(char ch) {
@@ -14,20 +14,21 @@ class Sentence {
     }
 
     public int countWordsLeadingAndTrailingVowels() {
-        int count=0;
+        int count = 0;
         String sentenceCopy = sentence.substring(0, sentence.length() - 1);
         String wordList[] = sentenceCopy.split(" ");
-        String beginingPart="", endingPart="";
-        for(String word:wordList){
-            if(word.length()==0) continue;
-            if(isVowel(word.charAt(0)) && isVowel(word.charAt(word.length()-1))){
-                beginingPart+=word+" ";
+        String beginingPart = "", endingPart = "";
+        for (String word : wordList) {
+            if (word.length() == 0)
+                continue;
+            if (isVowel(word.charAt(0)) && isVowel(word.charAt(word.length() - 1))) {
+                beginingPart += word + " ";
                 count++;
-            }else{
-                endingPart+=word+" ";
+            } else {
+                endingPart += word + " ";
             }
         }
-        answer=beginingPart+endingPart;
+        answer = beginingPart + endingPart;
         return count;
     }
 
@@ -35,7 +36,8 @@ class Sentence {
         String terminators = ".?!";
         return terminators.indexOf(sentence.charAt(sentence.length() - 1)) >= 0;
     }
-    public String toString(){
+
+    public String toString() {
         return answer;
     }
 }
@@ -48,8 +50,8 @@ class ISC2016Q3 {
         Sentence sentence = new Sentence(source);
         if (sentence.isValid()) {
             int count = sentence.countWordsLeadingAndTrailingVowels();
-            System.out.println("OUTPUT:\tNUMBER OF WORDS BEGINNING AND ENDING WITH A VOWEL = "+count);
-            System.out.println("\t"+sentence);
+            System.out.println("OUTPUT:\tNUMBER OF WORDS BEGINNING AND ENDING WITH A VOWEL = " + count);
+            System.out.println("\t" + sentence);
         } else {
             System.out.println("OUTPUT:\tINVALID INPUT");
         }
