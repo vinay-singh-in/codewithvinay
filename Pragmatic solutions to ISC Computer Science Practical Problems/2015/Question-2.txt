@@ -29,7 +29,7 @@ MATRIX AFTER ROTATION
         1   2   3
         6   5   4
         7   8   9
-Sum of the corner elments = 20
+Sum of the corner elements = 20
 
 Example 2:
 INPUT:  M = 4
