@@ -7,26 +7,26 @@ integers into this matrix. Perform the following tasks:
 a) Display the original matrix.
 b) Check if the given matrix is symmetric or not. A square matrix is said to be symmetric, if
    the element in the i th row and j th column is equal to the element of the j th row and i th
-column.
+   column.
 c) Find the sum of the elements of left diagonal and the sum of the elements of right diagonal
    of the matrix and display them.
 Test your program for the following data and some random data:
 
 Example 1
-INPUT:  M= 3
+INPUT:  M = 3
         1 2 3
         2 4 5
         3 5 6
 OUTPUT: ORIGINAL MATRIX
-    1 2 3
-    2 4 5
-    3 5 6
+        1 2 3
+        2 4 5
+        3 5 6
 THE GIVEN MATRIX IS SYMMETRIC
 The sum of the left diagonal = 11
 The sum of the right diagonal = 10
 
 Example 2
-INPUT:  M= 4
+INPUT:  M = 4
         7 8 9 2
         4 5 6 3
         8 5 3 1
@@ -41,5 +41,5 @@ The sum of the left diagonal = 17
 The sum of the right diagonal = 20
 
 Example 3
-INPUT:  M= 12
+INPUT:  M = 12
 OUTPUT: THE MATRIX SIZE IS OUT OF RANGE
