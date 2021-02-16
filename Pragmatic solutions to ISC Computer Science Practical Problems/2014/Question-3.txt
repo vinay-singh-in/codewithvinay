@@ -1,3 +1,5 @@
+ISC 2014 Computer Science Practical, Question 3
+
 Write a program to accept a sentence which may be terminated by 
 either ‘.’, ‘?’ or ‘!’ only. Any other character may be ignored. 
 
