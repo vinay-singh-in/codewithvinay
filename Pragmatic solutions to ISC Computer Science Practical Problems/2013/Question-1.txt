@@ -1,3 +1,5 @@
+ISC 2013 Computer Science Practical, Question 1
+
 An ISBN ( International Standard Book Number) is a ten digit code which 
 uniquely identifies a book. The first nine digits represent the Group, 
 Publisher and Title of the book and the last digit is used to check 
@@ -33,7 +35,7 @@ Example 2
 INPUT CODE : 035680324
 OUTPUT : INVALID INPUT
 
-Example 1
+Example 3
 INPUT CODE : 0231428031
 OUTPUT : SUM = 122
 LEAVES REMAINDER – INVALID ISBN CODE
