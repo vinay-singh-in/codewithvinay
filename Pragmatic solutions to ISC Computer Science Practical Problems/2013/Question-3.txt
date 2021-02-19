@@ -17,7 +17,7 @@ Test your program with the sample data and some random data:
 Example 1
 INPUT:  MOM AND DAD ARE COMING AT NOON.
 OUTPUT: MOM DAD NOON
-        NUMBER OF PALINDROMIC WORDS : 3
+        NUMBER OF PALINDROMIC WORDS: 3
 
 Example 2
 INPUT:  NITIN ARORA USES LIRIL SOAP.
