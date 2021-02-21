@@ -1,0 +1,25 @@
+ISC 2012 Computer Science Practical, Question 1
+
+A prime palindrome integer is a positive integer (without leading zeros) which 
+is prime as well as a palindrome. 
+
+Given two positive integers m and n, where m < n, write a program to 
+determine how many prime-palindrome integers are there in the 
+range between m and n (both inclusive) and output them. 
+
+The input contains two positive integers m and n where m < 3000 and n < 3000. 
+Display the number of prime-palindrome integers in the specified range along 
+with their values in the format specified below: 
+
+Test your program with the sample data and some random data: 
+Example 1 
+INPUT:  m = 100 
+        n = 1000 
+OUTPUT: THE PRIME PALINDROME INTEGERS ARE: 
+        101, 131, 151, 181, 191, 313, 353, 373, 383, 727, 757, 787, 797, 919, 929 
+        FREQUENCY OF PRIME PALINDROME INTEGERS : 15 
+
+Example 2 
+INPUT:  m = 100 
+        n = 5000 
+OUTPUT: OUT OF RANGE 
