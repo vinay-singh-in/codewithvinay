@@ -1,0 +1,28 @@
+ISC 2012 Computer Science Practical, Question 2
+
+Write a program to accept a sentence as input. 
+The words in the string are to be separated by a blank. 
+Each word must be in upper case. 
+The sentence is terminated by either “.”,”!” or “?”. 
+
+Perform the following tasks:
+(i) Obtain the length of the sentence (measured in words).
+(ii) Arrange the sentence in alphabetical order of the words.
+
+Test your program with the sample data and some random data:
+
+Example 1
+INPUT:
+    NECESSITY IS THE MOTHER OF INVENTION.
+OUTPUT:
+    LENGTH : 6
+    REARRANGED SENTENCE
+    INVENTION IS MOTHER NECESSITY OF THE
+
+Example 2
+INPUT:
+    BE GOOD TO OTHERS.
+OUTPUT:
+    LENGTH : 4
+    REARRANGED SENTENCE
+    BE GOOD OTHERS TO
