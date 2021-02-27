@@ -1,0 +1,16 @@
+ISC 2011 Computer Science Practical, Question 1
+
+Write a program to input a natural number less than 1000 and output it in words.
+Test your program for the following set of data:
+
+INPUT:  29
+OUTPUT: TWENTY NINE
+
+INPUT:  17001
+OUTPUT: OUT OF RANGE
+
+INPUT:  119
+OUTPUT: ONE HUNDRED AND NINETEEN
+
+INPUT:  500
+OUTPUT: FIVE HUNDRED
