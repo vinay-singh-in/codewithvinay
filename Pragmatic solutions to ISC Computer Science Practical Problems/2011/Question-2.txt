@@ -1,0 +1,38 @@
+ISC 2011 Computer Science Practical, Question 2
+
+Encryption is a technique of coding messages to maintain 
+their secrecy. A String array of size ‘n’ where ‘n’ is greater 
+than 1 and less than 10, stores single sentences 
+(each sentence ends with a full stop) in each row of the array.
+
+Write a program to accept the size of the array. 
+Display an appropriate message if the size is not satisfying 
+the given condition. 
+
+Define a string array of the inputted size and fill it with 
+sentences row-wise. 
+
+Change the sentence of the odd rows with an encryption of 
+two characters ahead of the original character. 
+Also change the sentence of the even rows by storing the sentence 
+in reverse order. 
+
+Display the encrypted sentences as per the sample data given below.
+
+Test your program on the sample data and some random data.
+
+Input: n=4
+
+IT IS CLOUDY.
+IT MAY RAIN.
+THE WEATHER IS FINE.
+IT IS COOL.
+
+Output:
+KV KU ENQWFA.
+RAIN MAY IT.
+VJG YGCVJGT KU HKPG.
+COOL IS IT.
+
+Input: n=13
+Output: INVALID ENTRY
