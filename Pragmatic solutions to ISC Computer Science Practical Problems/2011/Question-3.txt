@@ -15,22 +15,22 @@ Input:  Enter your date of birth in dd mm yyyy format
         01
         2010
 Output:
-    VALID DATE
-    5
+        VALID DATE
+        5
 
 Example 2
 Input:  Enter your date of birth in dd mm yyyy format
-    03
-    04
-    2010
+        03
+        04
+        2010
 Output:
-    VALID DATE
-    93
+        VALID DATE
+        93
 
 Example 3
 Input:  Enter your date of birth in dd mm yyyy format
-    34
-    06
-    2010
+        34
+        06
+        2010
 Output:
-    INVALID DATE
+        INVALID DATE
