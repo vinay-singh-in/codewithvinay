@@ -1,0 +1,36 @@
+ISC 2011 Computer Science Practical, Question 3
+Date Validation
+
+Design a program which accepts your date of birth in dd mm yyyy format. 
+Check whether the date entered is valid or not. 
+If it is valid, display “VALID DATE”, also compute and display the day number 
+of the year for the date of birth. 
+If it is invalid, display “INVALID DATE” and then terminate the program.
+
+Test your program  for the given sample data and some random data.
+
+Example 1
+Input:  Enter your date of birth in dd mm yyyy format
+        05
+        01
+        2010
+Output:
+    VALID DATE
+    5
+
+Example 2
+Input:  Enter your date of birth in dd mm yyyy format
+    03
+    04
+    2010
+Output:
+    VALID DATE
+    93
+
+Example 3
+Input:  Enter your date of birth in dd mm yyyy format
+    34
+    06
+    2010
+Output:
+    INVALID DATE
