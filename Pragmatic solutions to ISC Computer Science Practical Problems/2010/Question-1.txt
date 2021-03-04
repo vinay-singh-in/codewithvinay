@@ -1,0 +1,25 @@
+ISC 2010 Computer Science Practical, Question 1
+Denomination Breakup
+
+A bank intends to design a program to display the denomination of an
+input amount of upto five digits. The available denomination with the
+bank are of rupees 1000, 500, 100, 50, 20, 10, 5, 2, 1.
+
+Design a program to accept the amount from the user and display the
+breakup in descending order of denomination, (i.e. preference shoud be
+given to the highest denomination available) along with the total number
+of notes. [Note: Only the denominations used should be displayed.]
+Also print the amount in words according to the digits.
+
+Example 1
+INPUT:  14856
+OUTPUT: ONE FOUR EIGHT FIVE SIX
+        DENOMINATION 
+        1000    x   14          =   14000
+        500     x   1           =     500
+        100     x   3           =     300
+        50      x   1           =      50
+        5       x   1           =       5
+        1       x   1           =       1
+        TOTAL                   =   14586
+        TOTAL NUMBER OF NOTES   =      21
