@@ -17,7 +17,6 @@ Sum = 1 + 8 = 9, i.e. equal to the number.
 
 Example 2:
 45
-
 45*45 = 2025, 
 right-hand piece of 2025 = 25 and left hand piece of 2025 = 20
 Sum = 25 + 20 = 45, i.e. equal to the number.
@@ -46,4 +45,4 @@ q = 1000
 OUTPUT:
 THE KAPREKAR NUMBERS ARE:-
 1, 9, 45, 55, 99, 297, 703, 999
-FREQUENCY OF KAPREKAR NUMBERS IS:   8
+FREQUENCY OF KAPREKAR NUMBERS IS: 8
