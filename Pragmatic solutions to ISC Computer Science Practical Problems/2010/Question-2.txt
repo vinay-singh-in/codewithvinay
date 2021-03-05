@@ -1,0 +1,49 @@
+ISC 2010 Computer Science Practical, Question 2
+Kaprekar number
+
+A positive whole number ‘n’ that has ‘d’ number of digits is 
+squared and split into two pieces, a right-hand piece that 
+has ‘d’ digits and a left-hand piece that has remaining ‘d’ 
+or ‘d-1’ digits. 
+If the sum of the two pieces is equal to the number, then ‘n’ 
+is a Kaprekar number. 
+The first few Kaprekar numbers are: 9, 45, 297, ...
+
+Example 1:
+9
+9*9  = 81, 
+right-hand piece of 81 = 1 and left hand piece of 81 = 8
+Sum = 1 + 8 = 9, i.e. equal to the number.
+
+Example 2:
+45
+
+45*45 = 2025, 
+right-hand piece of 2025 = 25 and left hand piece of 2025 = 20
+Sum = 25 + 20 = 45, i.e. equal to the number.
+
+Example 3:
+297
+297*297 = 88209, 
+right-hand piece of 88209 = 209 and left hand piece of 88209 = 88
+Sum = 209 + 88 = 297, i.e. equal to the number.
+
+Given the two positive integers p and q, where p < q, write a program 
+to determine how many Kaprekar numbers are there in the range 
+between p and q (both inclusive) and output them.
+
+The input contains two positive integers p and q. 
+Assume p < 5000 and q < 5000. You are to output the number of 
+Kaprekar numbers in the specified range along with their values 
+in the format specified below:
+
+SAMPLE DATA:
+
+INPUT:
+p = 1
+q = 1000
+
+OUTPUT:
+THE KAPREKAR NUMBERS ARE:-
+1, 9, 45, 55, 99, 297, 703, 999
+FREQUENCY OF KAPREKAR NUMBERS IS:   8
