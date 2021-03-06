@@ -1,4 +1,4 @@
-ISC 2010 Computer Science Practical, Question 2
+ISC 2010 Computer Science Practical, Question 3
 
 Input a paragraph containing ‘n’ number of sentences 
 where (1 = < n < 4). The words are to be separated with a 
