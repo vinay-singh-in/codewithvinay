@@ -1,0 +1,35 @@
+ISC 2011 Computer Science Practical, Question 1
+2D Array: Sort the Boundary Elements
+
+Write a program to declare a matrix A[][] of order m x n, where
+m is the number of rows and n is the number of columns such that
+both m and n must be greater than 2 and less than 20. Allow the user
+to input positive integers into this matrix.
+Perform the following tasts on the matrix:
+a) Sort the elements of the outer rows and columns in ascending order
+   using any standard sorting technique and arrange them in an array.
+b) Calculate the sum of the outer row and column elements.
+c) Output the original matrix, rearranged matrix and only the border
+   elements of the rearranged array with their sum.
+
+Test your program for the following data and some random data:
+Example:
+INPUT:  M = 3
+        N = 3
+        1   7   4
+        8   2   5
+        6   3   9
+OUTPUT:
+        ORIGINAL MATRIX
+        1   7   4
+        8   2   5
+        6   3   9
+        REARRANGED MATRIX
+        1   3   4
+        9   2   5
+        8   7   6
+        BOUNDARY ELEMENTS
+        1   3   4
+        9       5
+        8   7   6
+        SUM OF THE OUTER ROW AND COLUMN ELEMENTS = 43
