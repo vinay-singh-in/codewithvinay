@@ -1,0 +1,35 @@
+ISC 2009 Computer Science Practical, Question 1
+Day After 'N' days
+
+Design a program to accept a day number (between 1 and 366), year (in 4 digits) 
+from the user to generate and display the corresponding date. 
+
+Also, accept ‘N’ (1 <= N <= 100) from the user to compute and display the 
+future date corresponding to ‘N’ days after the generated date. 
+
+Display an error message if the value of the day number, year and N are not 
+within the limit or not according to the condition specified.
+
+Test your program with the following data and some random data:
+
+Example 1
+
+INPUT:
+DAY NUMBER: 		    233
+YEAR: 			        2008
+DATE AFTER (N DAYS): 	17
+
+OUTPUT:
+DATE: 			        20 TH AUGUST, 2008
+DATE AFTER 17 DAYS: 	6 TH SEPTEMBER, 2008
+
+Example 2
+
+INPUT:
+DAY NUMBER: 		    360
+YEAR: 			        2008
+DATE AFTER (N DAYS): 	45
+
+OUTPUT:
+DATE: 			        20 TH AUGUST, 2008
+DATE AFTER 45 DAYS: 	8 TH FEBRUARY, 2009
