@@ -1,7 +1,7 @@
-ISC 2011 Computer Science Practical, Question 1
+ISC 2009 Computer Science Practical, Question 2
 2D Array: Sort the Boundary Elements
 
-Write a program to declare a matrix A[][] of order m x n, where
+Write a program to declare a matrix A[][] of order M x N, where
 m is the number of rows and n is the number of columns such that
 both m and n must be greater than 2 and less than 20. Allow the user
 to input positive integers into this matrix.
@@ -13,7 +13,7 @@ c) Output the original matrix, rearranged matrix and only the border
    elements of the rearranged array with their sum.
 
 Test your program for the following data and some random data:
-Example:
+Example 1:
 INPUT:  M = 3
         N = 3
         1   7   4
@@ -33,3 +33,45 @@ OUTPUT:
         9       5
         8   7   6
         SUM OF THE OUTER ROW AND COLUMN ELEMENTS = 43
+
+Example 2:
+INPUT:   M = 2
+         N = 3
+         7  1  6
+         8  9  2 	 
+OUTPUT:   
+	  	  	ORIGINAL  MATRIX
+         7  1  6
+         8  9  2 	 
+         REARRANGED  MATRIX
+         1  2  6
+         9  8  7
+         BOUNDARY  ELEMENTS 
+         1  2  6
+         9  8  7
+         SUM OF THE OUTER ROW AND COLUMN ELEMENTS  =  33 
+
+Example 4:
+INPUT:   M = 4
+         N = 4
+         9  2  1  5
+         8  13 8  4
+         15 6  3  11
+         7  12 23 8
+OUTPUT: 
+         ORIGINAL  MATRIX
+         9  2  1  5
+         8  13 8  4
+         15 6  3  11
+         7  12 23 8
+         REARRANGED  MATRIX
+         1  2  4  5
+         23 13 8  7
+         15 6  3  8
+         12 11 9  8
+         BOUNDARY  ELEMENTS 
+         1  2  4  5
+         23       7
+         15       8
+         12 11 9  8
+         SUM OF THE OUTER ROW AND COLUMN ELEMENTS  =  105
