@@ -1,5 +1,5 @@
 ICSE 2009, Computer Science Practical, Question 3
-Sorting words in a sentence
+Sorting words in a sentence in ascending order by length
 
 Read a single sentence which terminates with a full stop(.).  
 The words are to be separated with a single blank space and 
