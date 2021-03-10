@@ -1,0 +1,21 @@
+ICSE 2009, Computer Science Practical, Question 3
+Sorting words in a sentence
+
+Read a single sentence which terminates with a full stop(.).  
+The words are to be separated with a single blank space and 
+are in lower case.  
+Arrange the words contained in the sentence according to the 
+length of the words in ascending order.  If two words are of 
+the same length then the word occurring first in the input 
+sentence should come first.  
+For both input and output, the sentence must begin in upper case.
+
+Test your program for the following data and some random data.
+INPUT:  The lines are printed in reverse order.
+OUTPUT: In the are lines order printed reverse. 
+
+INPUT:  Print the sentence in ascending order.
+OUTPUT: In the print order sentence ascending.
+
+INPUT:  I love my country.
+OUTPUT: I my love country.
