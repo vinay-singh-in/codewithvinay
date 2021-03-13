@@ -1,0 +1,39 @@
+ISC Computer Practical 2008, Question 2
+Stats & Histogram
+
+A sentence is terminated by either “ . ” , “ ! ” or “ ? ” followed
+by a space.
+Input a piece of text consisting of sentences. Assume that there 
+will be a maximum of 10 sentences in block letters.
+
+Write a program to:
+(i)  Obtain the length of the sentence (measured in words) and the 
+     frequency of vowels in each sentence.
+
+(ii) Generate the output as shown below using the given data.
+
+Sample data:
+INPUT:  HELLO! HOW ARE YOU? HOPE EVERYTHING IS FINE. BEST OF LUCK.
+
+OUTPUT
+Sentence 	No. of Vowels 	No. of words
+ 1 	        2 	            1
+ 2 	        5 	            3
+ 3 	        8 	            4
+ 4 	        3 	            3
+
+
+Sentence 	No. of vowels / words
+1           VVVVVV
+            WWW
+
+2           VVVVVVVVVVVVVVV
+            WWWWWWWWW
+
+3           VVVVVVVVVVVVVVVVVVVVVVVV
+            WWWWWWWWWWWW
+
+4           VVVVVVVVV
+            WWWWWWWWW
+            
+Scale used 1:3
