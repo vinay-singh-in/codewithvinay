@@ -1,0 +1,45 @@
+ISC Computer Practical 2007, Question 2
+Reverse the order of words in a sentence
+
+The input in this problem will consist of a number of lines of 
+English text consisting of the letters of the English alphabet,
+the punctuation marks (‘) apostrophe, (.) full stop, (,) comma, 
+(;) semicolon, (:) colon and white space characters (blank, newline). 
+
+Your task is to print the words of the text in reverse order without 
+any punctuation marks other than blanks.
+
+For example consider the following input text:
+This is a sample piece of text to illustrate this problem. If you are 
+smart you will solve this right.
+
+The corresponding output would read as:
+right this solve will you smart are you If problem this illustrate to 
+text of piece sample a is This
+
+Note: That is, the lines are printed in reverse order. Individual 
+words are not reversed
+
+Input format:
+The first line of input contains a single integer N ( < = 20), 
+indicating the number of lines in the input. 
+This is followed by N lines of input text. 
+Each line should accept a maximum of 80 characters.
+
+Output format
+Output the text containing the input lines in reverse order without 
+punctuation except blanks as illustrated above.
+
+Test your program for the following data and some random data.
+
+SAMPLE DATA
+INPUT:  2
+Emotions,  controlled and directed to work, is character.
+By Swami Vivekananda.
+OUTPUT:
+Vivekananda Swami By character is work to directed and controlled Emotions
+
+INPUT:  1
+Do not judge a book by its cover.
+OUTPUT:
+Cover its by book a judge not Do
