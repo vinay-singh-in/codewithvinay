@@ -57,7 +57,7 @@ class ISC2021SpecimenQ3{
         System.out.print("INPUT:\t");
         int N = in.nextInt();
         Mobius obj = new Mobius(N);
-        System.out.println(obj);
+        System.out.println("OUTPUT:"+obj);
         in.close();
     }
 }
