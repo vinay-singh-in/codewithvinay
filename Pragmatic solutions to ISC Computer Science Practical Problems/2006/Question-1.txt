@@ -1,0 +1,30 @@
+ISC Computer Practical 2006, Question 1
+Consecutive Integer Sum
+
+A positive natural number, (for e.g. 27), can be represented as follows –
+2+3+4+5+6+7
+8+9+10
+13+14
+Where every row represents a combination of consecutive natural numbers, which add up to 27.
+
+Write a program which inputs a positive natural number N and prints the possible consecutive number combinations, 
+which when added give N.
+
+Test your program for the following data and some random data.
+SAMPLE DATA
+INPUT:  N = 9
+OUTPUT:
+    4 + 5
+    2 + 3 + 4
+
+INPUT:  N = 15
+OUTPUT:
+    7 + 8
+    1 + 2 + 3 + 4 + 5
+    4 + 5 + 6
+
+INPUT:  N = 21
+OUTPUT:
+    10 + 11
+    1 + 2 + 3 + 4 + 5 + 6
+    6 + 7 + 8
