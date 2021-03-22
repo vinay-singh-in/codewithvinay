@@ -7,8 +7,8 @@ A positive natural number, (for e.g. 27), can be represented as follows –
 13+14
 Where every row represents a combination of consecutive natural numbers, which add up to 27.
 
-Write a program which inputs a positive natural number N and prints the possible consecutive number combinations, 
-which when added give N.
+Write a program which inputs a positive natural number N and prints the possible 
+consecutive number combinations, which when added give N.
 
 Test your program for the following data and some random data.
 SAMPLE DATA
