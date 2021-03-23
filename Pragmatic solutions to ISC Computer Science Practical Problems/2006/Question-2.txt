@@ -1,0 +1,39 @@
+ISC Computer Practical 2006, Question 2
+Merging of two arrays
+
+Write a program that inputs the names of people into two different 
+arrays A and B. 
+Array A has N number of names while Array B has M number of names, 
+with no duplicates in either of them. 
+Merge arrays A and B into a single array C, such that the resulting 
+array is sorted alphabetically.
+
+Display all the three arrays, A, B and C, sorted alphabetically.
+
+Test your program for the given data and some random data.
+
+SAMPLE DATA:
+INPUT:
+Enter number of names in Array A, N = 2
+Enter number of names in Array B, M = 3
+First array: (A)
+Suman
+Anil
+Second array: (B)
+Usha
+Sachin
+John
+OUTPUT:
+Sorted Merged array: (C)
+Anil
+John
+Sachin
+Suman
+Usha
+Sorted first array: (A)
+Anil
+Suman
+Sorted Second array: (B)
+John
+Sachin
+Usha
