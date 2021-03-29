@@ -1,0 +1,28 @@
+ISC Computer Practical 2005, Question 1
+Capitalisation/Sort Words In Descending Order By Length
+
+Write a program which takes a string (maximum 80 characters) 
+terminated by a full stop. The words in this string are assumed 
+to be separated by one or more blanks.
+
+Arrange the words of the input string in descending order of their 
+lengths. Same length words should be sorted alphabetically. 
+
+Each word must star with an uppercase letter and the sentence 
+should be terminated by a full stop.
+
+Test your program for the following data and some random data.
+
+SAMPLE DATA:
+
+INPUT:
+This is human resource department.
+
+OUTPUT:
+Department Resource Human This Is.
+
+INPUT:
+To handle yourself use your head and to handle others use your heart.
+
+OUTPUT:
+Yourself Handle Handle Others Heart Head Your Your And Use Use To To.
