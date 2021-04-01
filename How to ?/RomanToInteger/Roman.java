@@ -3,8 +3,9 @@ class Roman {
     private static int values[] = { 1, 5, 10, 50, 100, 500, 1000 };
 
     public static int getValue(char ch) {
-        int index=romanSymbols.indexOf(ch);
-        if(index==-1) throw new IllegalArgumentException();
+        int index = romanSymbols.indexOf(ch);
+        if (index == -1)
+            throw new IllegalArgumentException();
         return values[index];
     }
 
@@ -14,11 +15,13 @@ class Roman {
         current = getValue(roman.charAt(0));
         for (int position = 1; position < roman.length(); position++) {
             next = getValue(roman.charAt(position));
-            if( current >= next) answer+=current;
-            else answer -= current;
-            current=next;
+            if (current >= next)
+                answer += current;
+            else
+                answer -= current;
+            current = next;
         }
-        answer+=current;
+        answer += current;
         return answer;
     }
 
