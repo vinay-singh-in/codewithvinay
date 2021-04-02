@@ -1,5 +1,5 @@
 ISC Computer Practical 2005, Question 1
-Capitalisation/Sort Words In Descending Order By Length
+Title Case/Sort Words In Descending Order By Length
 
 Write a program which takes a string (maximum 80 characters) 
 terminated by a full stop. The words in this string are assumed 
