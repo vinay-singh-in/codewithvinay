@@ -1,0 +1,81 @@
+ISC Computer Practical 2005, Question 2
+Test for Wonderous Square
+
+A wondrous square is an n by n grid which fulfills the 
+following conditions:
+(i)  It contains integers from 1 to n^2, where each integer 
+     appears only once.
+(ii) The sum of integers in any row or column must add up 
+     to 0.5 * n * (n^2 + 1).
+
+For example the following grid is a wondrous square where 
+the sum of each row or column is 65 when n = 5:
+
+17  24  1   8   15
+23  5   7   14  16
+4   6   13  20  22
+10  12  19  21  3
+11  18  25  2   9
+
+Write a program to read n (2 < n < 10) and the values stored in these
+n by n cells and output if the grid represents a wondrous square or not.
+
+Also output all the prime numbers in the grid along with their 
+row index and column index as shown in the output. 
+
+A natural number is said to be prime if it has exactly two divisors. 
+E.g. 2,3,5,7,11 ………..
+
+The first element of the given grid i.e 17 is stored at row index 0 
+and column index 0 and the next element in the row i.e. 24 is stored 
+at row index 0 and column index 1.
+
+Test your program for the following data and some random data.
+
+SAMPLE DATA:
+
+INPUT:
+N = 4
+16  15  1   2
+6   4   10  14
+9   8   12  5
+3   7   11  13
+OUTPUT:
+YES IT REPRESENTS A WONDROUS SQUARE.
+PRIME   ROW INDEX   COLUMN INDEX
+2       0           3
+3       3           0
+5       2           3
+7       3           1
+11      3           2
+13      3           3
+15      0           1 <-- 15 is not a prime
+
+ 
+
+INPUT:
+N = 3
+1   2   4
+3   7   5
+8   9   6
+OUTPUT:
+NOT A WONDROUS SQUARE.
+PRIME   ROW INDEX   COLUMN INDEX
+2       0           1
+3       1           0
+5       1           2
+7       1           1
+
+ 
+
+INPUT:
+N = 2
+2   3
+3   2
+OUTPUT:
+NOT A WONDROUS SQUARE.
+PRIME   ROW INDEX   COLUMN INDEX
+2       0               0
+3       0               1
+3       1               0
+2       1               1
