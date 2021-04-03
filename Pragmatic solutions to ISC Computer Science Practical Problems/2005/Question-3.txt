@@ -1,0 +1,61 @@
+
+We would like to generate all possible anagrams of 
+a word. 
+For example if the given word is ‘TOP’, there will 
+be 6 possible anagrams:
+
+TOP
+TPO
+OTP
+OPT
+POT
+PTO
+
+An anagram must be printed only once. You may output 
+the anagrams in any order. 
+
+Also, output the total number of anagrams. 
+
+You may assume that the number of letters,  N, in the 
+word will be 7 at most, i.e. N < 7
+
+Test your program for the given data and some random data.
+
+SAMPLE DATA:
+
+INPUT:
+TO
+OUTPUT:
+TO
+OT
+Total number of anagrams=2
+
+ 
+INPUT:
+LEAN
+OUTPUT:
+LEAN
+LENA
+LAEN
+LANE
+LNAE
+LNEA
+ELAN
+ELNA
+EALN
+EANL
+ENAL
+ENLA
+AELN
+AENL
+ALEN
+ALNE
+ANLE
+ANEL
+NEAL
+NELA
+NAEL
+NALE
+NLAE
+NLEA
+Total number of anagrams = 24
