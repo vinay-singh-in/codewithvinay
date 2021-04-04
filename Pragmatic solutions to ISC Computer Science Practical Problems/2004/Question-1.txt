@@ -1,0 +1,69 @@
+ISC Computer Practical 2004, Question 1
+Smallest Base Problem
+
+Numbers have different representations depending on the 
+bases on which they are expressed. 
+For example in base 3, the number 12 is written as 
+110 (1 x 32 + 1 x 31 + 0 x 30), but in base 8 it is 
+written as 14(1 x 81 + 4 x 80).
+
+Consider, for example, the integers 12 and 5. Certainly 
+these are not equal if base 10 is used for each. 
+But suppose 12 was a base 3 number and 5 was a base 6 
+number then what happens, 12 base 3 = 1 x 31 + 2 x 30, 
+or 5 base 6 or 5 base 10 (5 in any base is equal to 5 
+base 10). 
+So 12 and 5 can be equal if you select the right bases 
+for each of them.
+
+Write a program to input two integers, X and Y, and 
+calculate the smallest base for X and smallest base 
+for Y (likely different from X) so that X and Y 
+represent the same value. 
+
+The base associated with X and Y will be between 1 and 
+20 (both inclusive). In representing these numbers the 
+digits 0 to 9 have their usual decimal interpretations. 
+
+The upper case alphabetic characters A through J 
+represent digits 10 through 19 respectively.
+
+Test your program for the following data and some 
+random data:
+
+SAMPLE DATA:
+
+INPUT:
+X = 12
+Y = 5
+
+OUTPUT:
+12(base 3) = 5 (base 6)
+
+
+INPUT:
+X = 10
+Y = A
+OUTPUT:
+10 (base 10) = A (base 11)
+
+
+INPUT:
+X = 12
+Y = 34
+OUTPUT:
+12 (base 17) = 34 (base 5)
+
+
+INPUT:
+X = 123
+Y = 456
+OUTPUT:
+1 2 3 is not equal to 456 in any base between 2 to 20
+
+
+INPUT:
+X = 42
+Y = 36
+OUTPUT:
+42 (base 7) = 36 (base 8)
