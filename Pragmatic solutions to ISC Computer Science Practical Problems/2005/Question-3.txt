@@ -1,3 +1,5 @@
+ISC Computer Practical 2005, Question 3
+Anagram
 
 We would like to generate all possible anagrams of 
 a word. 
