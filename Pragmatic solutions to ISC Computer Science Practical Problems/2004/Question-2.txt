@@ -1,10 +1,18 @@
+ISC Computer Practical 2004, Question 2
+Decoding Secret Message
 
+The computer department of the Agency of International Espionage is 
+trying to decode Intercepted messages. The agency’s spies have determined 
+that the enemy encodes Messages by first converting all characters to 
+their ASCII values and then reversing the string.
 
-The computer department of the Agency of International Espionage is trying to decode Intercepted messages. The agency’s spies have determined that the enemy encodes Messages by first converting all characters to their ASCII values and then reversing the string.
+For example, consider A_z (the underscore is just to highlight the space). 
+The ASCII values of A,, z are 65, 32, 122 respectively. Concatenate them to 
+get 6532122, then reverse this to get 2212356 as the coded message.
 
-For example, consider A_z (the underscore is just to highlight the space). The ASCII values of A,, z are 65, 32, 122 respectively. Concatenate them to get 6532122, then reverse this to get 2212356 as the coded message.
-
-Write a program which reads a coded message and decodes it. The coded message will not exceed 200 characters. It will contain only alphabets (A …… Z, and a …….z) and spaces.
+Write a program which reads a coded message and decodes it. The coded 
+message will not exceed 200 characters. It will contain only 
+alphabets (A …… Z, and a …….z) and spaces.
 
 ASCII values of A ……Z are 65 ….. 90 and those of a……z are 97 …..122.
 
