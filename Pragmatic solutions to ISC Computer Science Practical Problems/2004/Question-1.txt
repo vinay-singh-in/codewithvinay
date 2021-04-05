@@ -4,13 +4,13 @@ Smallest Base Problem
 Numbers have different representations depending on the 
 bases on which they are expressed. 
 For example in base 3, the number 12 is written as 
-110 (1 x 32 + 1 x 31 + 0 x 30), but in base 8 it is 
-written as 14(1 x 81 + 4 x 80).
+110 (1 x 3^2 + 1 x 3^1 + 0 x 3^0), but in base 8 it is 
+written as 14(1 x 8^1 + 4 x 8^0).
 
 Consider, for example, the integers 12 and 5. Certainly 
 these are not equal if base 10 is used for each. 
 But suppose 12 was a base 3 number and 5 was a base 6 
-number then what happens, 12 base 3 = 1 x 31 + 2 x 30, 
+number then what happens, 12 base 3 = 1 x 3^1 + 2 x 3^0, 
 or 5 base 6 or 5 base 10 (5 in any base is equal to 5 
 base 10). 
 So 12 and 5 can be equal if you select the right bases 
