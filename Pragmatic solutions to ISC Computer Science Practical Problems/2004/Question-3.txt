@@ -1,0 +1,57 @@
+ISC Computer Practical 2004, Question 3
+Machine Usage Problem 
+
+The manager of a company wants to analyse the machine 
+usage from the records to find the utilization of the 
+machine. He wants to know how long each user used the 
+machine. When the user wants to use the machine he must 
+login to the machine and after finishing the work he must 
+log off the machine.
+
+Each log record consists of:
+ User identification number.
+ Login time and date.
+ Logout time and date.
+Time consists of:
+ Hours
+ Minutes
+
+Date consists of:
+ Day
+ Month
+
+You may assume all logins and logouts are in the same 
+year and there are 100 users at the most. The time 
+format is 24 hour machine hours and minutes.
+
+Design a program:
+(a) To find the duration for which each user has logged. 
+    Output all records along with the duration in 
+    hours (format hours: minutes).
+
+(b) Output the record of the user who logged for the 
+    longest duration. You may assume that no user will 
+    login for more than 48 hours.
+
+Test your program for the following data values and some 
+more random data.
+
+SAMPLE DATA:
+
+INPUT:
+Number of users: 3
+USER            LOGIN           LOGOUT
+IDENTIFICATION  TIME & DATE     TIME & DATE
+149             20:10 20-12     2:50 21-12
+173             12:30 20-12     12:30 21-12
+142             16:20 20-12     16:30 20-12
+
+
+OUTPUT:
+USER            LOGIN           LOGOUT          DURATION
+IDENTIFICATION  TIME & DATE     TIME & DATE     HOURS:MINS
+149             20:10 20-12     2:50 21-12      6:40
+173             12:30 20-12     12:30 21-12     24:00
+142             16:20 20-12     16:30 20-12     00:10
+THE USER WHO LOGGED IN FOR THE LONGEST DURATION
+173             12:30 20-12     12:30 21-12     24:00
