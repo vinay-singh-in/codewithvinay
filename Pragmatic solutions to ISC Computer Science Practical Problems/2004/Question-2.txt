@@ -21,7 +21,6 @@ Test your Program for the following data and some random data.
 SAMPLE DATA:
 
 INPUT:
-
 Encoded Message:
 2312179862310199501872379231018117927
 OUTPUT:
