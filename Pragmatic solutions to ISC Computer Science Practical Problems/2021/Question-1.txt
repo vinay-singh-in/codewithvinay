@@ -1,0 +1,50 @@
+ISC Computer Practical 2021, Question 1
+Fascinating Number In A Range
+
+A fascinating number is one which when multiplied by 2 and 3 and then, 
+after the results are concatenated with the original number, the new 
+number contains all the digits from 1 to 9 exactly once. 
+There can be any number of zeros and are to be ignored.
+
+Example:     
+273 
+273 * 1 = 273 
+273 * 2 = 546 
+273 * 3 = 819 
+Concatenating the results, we get 273546819 which contains all digits 
+from 1 to 9 exactly once. Thus 273 is a fascinating number.
+
+Accept two positive intgers m and n, where m must be less than n and 
+the values of both 'm' and 'n' must be greater than 99 and less than 
+10000 as user input.
+Display all fascinating numbers that are in the range between m and n 
+(both inclusive) and output them along with the frequency, in the 
+format given below:
+
+Test your program for the following data and some random data.
+
+Example 1:  
+INPUT:  m = 100
+        n = 500
+OUTPUT: THE FASCINATING NUMBERS ARE:
+192 219 273 327
+THE FREQUENCY OF FASCINATING NUMBER IS: 4
+
+Example 2:
+INPUT:  m = 900
+        n = 5000
+OUTPUT: THE FASCINATING NUMBERS ARE:
+1902 1920 2019 2190 2703 2730 3027 3270
+THE FREQUENCY OF FASCINATING NUMBER IS: 8
+
+Example 3:
+INPUT:  m = 400
+        n = 900
+OUTPUT: THE FASCINATING NUMBERS ARE:
+NIL
+THE FREQUENCY OF FASCINATING NUMBER IS: 0
+
+Example 4:
+INPUT:  m = 70
+        n = 450
+OUTPUT: Invalid range
